@@ -245,9 +245,7 @@ if __name__ == '__main__':
 
     Xtest = np.linspace(0.1, 6, 200)[:, None]
     mu_mono, var_mono = mono_model.predict(Xtest, full_cov=False, include_likelihood=False)
-    mu_standard, var_standard = standard_gp.predict(Xtest, full_cov=False, include_likelihood=False)
-    var_mono = 0.25 * var_mono
-    var_standard = 0.25 * var_standard
+    mu_standard, var_standard = standard_gp.predict(Xtest, full_cov=False, include_likelihood=False 
 
     mu_mono = mu_mono[:, 0]
     var_mono = np.clip(var_mono.squeeze(), 1e-6, None)
