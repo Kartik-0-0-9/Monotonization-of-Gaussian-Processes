@@ -13,6 +13,7 @@ This repository implements a monotonic Gaussian Process (GP) regression model us
 - This file includes the theory,examples and their inference required to understand this project.
 - It was orignally written as a graded assignment for my semester project
 - It has a whole section on Gaussian processes and Expectation propogation(see Theoretical background) which introduces the concepts from the bare bones.
+- The whole file may not be visible at once, please download it to see all its contents.
 
 ## Dependencies
 
