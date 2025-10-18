@@ -23,20 +23,15 @@ This repository implements a monotonic Gaussian Process (GP) regression model us
 - matplotlib (1.17.0)
 - scikit-learn (3.6.0)
 
-## Acknowledgements
+## Results
 
-This project was made possible thanks to the following:
+Here are some outputs of the model:
 
-- Prof. Bedartha Goswami, without whose kind guidance this project would not have been possible.
+![Y = sin(X) ; X ∈ [0, π/2]](images/result1.png)
+![Y = 2/1+e(−8X+4)](images/result2.png)
 
-- The paper by **Rihimäki and Vehtari (2010)**:  
-  *Rihimäki, J., & Vehtari, A. (2010). Gaussian processes with monotonicity information.*  
-  (https://proceedings.mlr.press/v9/riihimaki10a.html)
+To know more about the implementation and analysis, [click here to view the Jupyter Notebook](./analysis.ipynb).
 
-- The open-source community for their contributions to these libraries and tools.
-
-### 3. **Example Output**
-Examples are included in the report file.
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue. Feel free to submit pull requests to improve the code or add new features.
