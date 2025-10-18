@@ -27,8 +27,8 @@ This repository implements a monotonic Gaussian Process (GP) regression model us
 
 Here are some outputs of the model:
 
-![Y = sin(X) ; X ∈ [0, π/2]](images/result1.png)
-![Y = 2/1+e(−8X+4)](images/result2.png)
+![Y = sin(X) ; X ∈ [0, π/2]](output1.png)
+![Y = 2/1+e(−8X+4)](output2.png)
 
 To know more about the implementation and analysis, [click here to view the Jupyter Notebook](./analysis.ipynb).
 
