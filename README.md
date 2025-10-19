@@ -27,7 +27,7 @@ This repository implements a monotonic Gaussian Process (GP) regression model us
 
 Here are some outputs of the model:
 
-![Y = sin(X) ; X ∈ [0, π/2]](Sample_Outputsoutput2.png)
+![Y = sin(X) ; X ∈ [0, π/2]](Sample_Outputs/output2.png)
 *Figure 1: Monotonic GP Fit Result for Y = 2x.*
 ![Y = 2/1+e(−8X+4)](Sample_Outputs/output1.png)
 *Figure 2: Monotonic GP Fit Result for Y = 2/1+e(−8X+4).*
