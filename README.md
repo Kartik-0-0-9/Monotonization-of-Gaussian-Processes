@@ -32,7 +32,7 @@ Here are some outputs of the model:
 ![Y = 2/1+e(−8X+4)](Sample_Outputs/output1.png)
 *Figure 2: Monotonic GP Fit Result for Y = 2/1+e(−8X+4).*
 
-To know more about the implementation and analysis, [click here to view the Jupyter Notebook](notebook/monotonic_gp_demo.ipynb).
+To know more about the implementation and analysis, [click here to view the Jupyter Notebook](notebook/monotonic_gp_og.ipynb).
 
 ## Contributing
 
